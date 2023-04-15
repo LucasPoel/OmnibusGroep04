@@ -1,9 +1,9 @@
 package Omnibus;
 
 public abstract class Entity {
-    private static int count = 0;
-    private final String name;
-    private final int id;
+    protected static int count = 0;
+    protected final String name;
+    protected final int id;
 
     public Entity(String name) {
         this.name = name;
